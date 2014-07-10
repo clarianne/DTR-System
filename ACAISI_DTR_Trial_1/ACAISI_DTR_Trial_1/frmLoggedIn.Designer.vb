@@ -117,13 +117,14 @@ Partial Class frmLoggedIn
         Me.btnLogIn.Size = New System.Drawing.Size(115, 35)
         Me.btnLogIn.TabIndex = 10
         Me.btnLogIn.TabStop = False
-        Me.btnLogIn.Text = "LOG-IN"
+        Me.btnLogIn.Text = "TIME IN"
         Me.btnLogIn.UseVisualStyleBackColor = True
         '
         'frmLoggedIn
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.SystemColors.Info
         Me.ClientSize = New System.Drawing.Size(284, 262)
         Me.Controls.Add(Me.btnPmOut)
         Me.Controls.Add(Me.btnPmIn)
@@ -134,7 +135,7 @@ Partial Class frmLoggedIn
         Me.Controls.Add(Me.btnTimeOut)
         Me.Controls.Add(Me.btnLogIn)
         Me.Name = "frmLoggedIn"
-        Me.Text = "Form2"
+        Me.Text = "Employee Log-In"
         Me.ResumeLayout(False)
 
     End Sub

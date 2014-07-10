@@ -32,3 +32,7 @@ C:\Users\User\Documents\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\Wind
 C:\Users\User\Documents\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\ACAISI_DTR_Trial_1.vbproj.GenerateResource.Cache
 C:\Users\User\Documents\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\WindowsApplication1.Form1.resources
 C:\Users\User\Documents\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\WindowsApplication1.frmLoggedIn.resources
+D:\DTR-System\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\bin\Debug\ACAISI_DTR_Trial_1.exe.config
+D:\DTR-System\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\ACAISI_DTR_Trial_1.exe
+D:\DTR-System\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\ACAISI_DTR_Trial_1.xml
+D:\DTR-System\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\ACAISI_DTR_Trial_1.pdb
