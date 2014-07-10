@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ACAISI_DTR_Trial_1", "ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1.vbproj", "{DEE83480-3B26-4ECC-96EB-8520AA436B3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEE83480-3B26-4ECC-96EB-8520AA436B3C}.Debug|x86.ActiveCfg = Debug|x86
+		{DEE83480-3B26-4ECC-96EB-8520AA436B3C}.Debug|x86.Build.0 = Debug|x86
+		{DEE83480-3B26-4ECC-96EB-8520AA436B3C}.Release|x86.ActiveCfg = Release|x86
+		{DEE83480-3B26-4ECC-96EB-8520AA436B3C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

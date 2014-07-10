@@ -1,0 +1,34 @@
+C:\Users\User\documents\visual studio 2010\Projects\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\bin\Debug\ACAISI_DTR_Trial_1.exe.config
+C:\Users\User\documents\visual studio 2010\Projects\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\bin\Debug\ACAISI_DTR_Trial_1.exe
+C:\Users\User\documents\visual studio 2010\Projects\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\bin\Debug\ACAISI_DTR_Trial_1.pdb
+C:\Users\User\documents\visual studio 2010\Projects\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\bin\Debug\ACAISI_DTR_Trial_1.xml
+C:\Users\User\documents\visual studio 2010\Projects\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\WindowsApplication1.frmLogScreen.resources
+C:\Users\User\documents\visual studio 2010\Projects\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\WindowsApplication1.frmSetDefPas.resources
+C:\Users\User\documents\visual studio 2010\Projects\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\WindowsApplication1.frmAdminOpt.resources
+C:\Users\User\documents\visual studio 2010\Projects\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\WindowsApplication1.frmAddEmployee.resources
+C:\Users\User\documents\visual studio 2010\Projects\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\WindowsApplication1.frmAdminMenu.resources
+C:\Users\User\documents\visual studio 2010\Projects\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\WindowsApplication1.frmLogin.resources
+C:\Users\User\documents\visual studio 2010\Projects\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\User\documents\visual studio 2010\Projects\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\ACAISI_DTR_Trial_1.vbproj.GenerateResource.Cache
+C:\Users\User\documents\visual studio 2010\Projects\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\ACAISI_DTR_Trial_1.exe
+C:\Users\User\documents\visual studio 2010\Projects\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\ACAISI_DTR_Trial_1.xml
+C:\Users\User\documents\visual studio 2010\Projects\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\ACAISI_DTR_Trial_1.pdb
+C:\Users\User\documents\visual studio 2010\Projects\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\ACAISI_DTR_Trial_1.vbprojResolveAssemblyReference.cache
+C:\Users\User\Documents\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\bin\Debug\ACAISI_DTR_Trial_1.exe.config
+C:\Users\User\Documents\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\ACAISI_DTR_Trial_1.exe
+C:\Users\User\Documents\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\ACAISI_DTR_Trial_1.xml
+C:\Users\User\Documents\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\ACAISI_DTR_Trial_1.pdb
+C:\Users\User\Documents\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\bin\Debug\ACAISI_DTR_Trial_1.exe
+C:\Users\User\Documents\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\bin\Debug\ACAISI_DTR_Trial_1.pdb
+C:\Users\User\Documents\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\bin\Debug\ACAISI_DTR_Trial_1.xml
+C:\Users\User\Documents\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\ACAISI_DTR_Trial_1.vbprojResolveAssemblyReference.cache
+C:\Users\User\Documents\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\WindowsApplication1.frmLogScreen.resources
+C:\Users\User\Documents\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\WindowsApplication1.frmSetDefPas.resources
+C:\Users\User\Documents\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\WindowsApplication1.frmAdminOpt.resources
+C:\Users\User\Documents\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\WindowsApplication1.frmAddEmployee.resources
+C:\Users\User\Documents\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\WindowsApplication1.frmAdminMenu.resources
+C:\Users\User\Documents\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\WindowsApplication1.frmLogin.resources
+C:\Users\User\Documents\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\User\Documents\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\ACAISI_DTR_Trial_1.vbproj.GenerateResource.Cache
+C:\Users\User\Documents\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\User\Documents\ACAISI_DTR_Trial_1\ACAISI_DTR_Trial_1\obj\x86\Debug\WindowsApplication1.frmLoggedIn.resources
