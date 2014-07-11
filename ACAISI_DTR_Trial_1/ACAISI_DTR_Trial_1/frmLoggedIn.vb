@@ -49,6 +49,8 @@
     End Sub
 
     Private Sub btnTimeIn_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnTimeIn.Click
+
+        ' Log In Confirmation
         MessageBox.Show("You have successfully logged in.", "My Application", _
          MessageBoxButtons.OK)
         If DialogResult.OK Then
@@ -58,5 +60,11 @@
 
     Private Sub btnTimeOut_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnTimeOut.Click
 
+        ' Log Out Confirmation
+        MessageBox.Show("You have successfully logged out.", "My Application", _
+        MessageBoxButtons.OK)
+        If DialogResult.OK Then
+            Me.Hide()
+        End If
     End Sub
 End Class

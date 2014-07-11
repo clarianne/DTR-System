@@ -7,6 +7,10 @@
 
         btnReset.Visible = False
 
+        ' By default, Exit button for terminating the whole program is hidden
+        ' Will only be activated when frmLogin is triggeres from frmLogScreen's menustrip
+        btnExitApp.Visible = False
+
     End Sub
 
     Private Sub txtEmpNo_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtEmpNo.TextChanged
@@ -27,7 +31,7 @@
         txtEmpNo.Text = ""
         txtPass.Text = ""
 
-        'Confirmation of Terminating the Program
+        'Confirmation of Terminating the Window
         If MessageBox.Show("Do you want to exit?", "My Application", _
          MessageBoxButtons.YesNo, MessageBoxIcon.Question) _
          = DialogResult.Yes Then
@@ -69,6 +73,15 @@
         ElseIf DialogResult.Cancel Then
             End
 
+        End If
+    End Sub
+
+    Private Sub btnExitApp_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnExitApp.Click
+        'Confirmation of Terminating the Window
+        If MessageBox.Show("Do you want to exit?", "My Application", _
+         MessageBoxButtons.YesNo, MessageBoxIcon.Question) _
+         = DialogResult.Yes Then
+            End
         End If
     End Sub
 End Class

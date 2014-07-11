@@ -29,6 +29,7 @@ Partial Class frmLogin
         Me.lblHRule = New System.Windows.Forms.Label()
         Me.lblCompanyAdd = New System.Windows.Forms.Label()
         Me.pnlLogin = New System.Windows.Forms.Panel()
+        Me.btnExitApp = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.btnReset = New System.Windows.Forms.Button()
         Me.btnLogin = New System.Windows.Forms.Button()
@@ -85,6 +86,7 @@ Partial Class frmLogin
         'pnlLogin
         '
         Me.pnlLogin.BackColor = System.Drawing.Color.Gainsboro
+        Me.pnlLogin.Controls.Add(Me.btnExitApp)
         Me.pnlLogin.Controls.Add(Me.btnExit)
         Me.pnlLogin.Controls.Add(Me.btnReset)
         Me.pnlLogin.Controls.Add(Me.btnLogin)
@@ -96,6 +98,16 @@ Partial Class frmLogin
         Me.pnlLogin.Name = "pnlLogin"
         Me.pnlLogin.Size = New System.Drawing.Size(387, 164)
         Me.pnlLogin.TabIndex = 6
+        '
+        'btnExitApp
+        '
+        Me.btnExitApp.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnExitApp.Location = New System.Drawing.Point(260, 110)
+        Me.btnExitApp.Name = "btnExitApp"
+        Me.btnExitApp.Size = New System.Drawing.Size(97, 33)
+        Me.btnExitApp.TabIndex = 7
+        Me.btnExitApp.Text = "&EXIT"
+        Me.btnExitApp.UseVisualStyleBackColor = True
         '
         'btnExit
         '
@@ -200,5 +212,6 @@ Partial Class frmLogin
     Friend WithEvents btnLogin As System.Windows.Forms.Button
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
     Friend WithEvents btnReset As System.Windows.Forms.Button
+    Friend WithEvents btnExitApp As System.Windows.Forms.Button
 
 End Class

@@ -8,6 +8,14 @@
         MaximizeBox = False
         MinimizeBox = False
 
+        btnLogIn.Refresh()
+
+        ' btnLogin is disabled in default and will only activated upon entry of pin
+        btnLogIn.Enabled = False
+
+        If txtPin.Text = "" Then
+            btnLogIn.Enabled = False
+        End If
 
     End Sub
 
@@ -28,11 +36,21 @@
 
     Private Sub AdminLogInToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AdminLogInToolStripMenuItem.Click
         frmLogin.Show()
+
     End Sub
 
     Private Sub ExitToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ExitToolStripMenuItem.Click
         frmLogin.Show()
+
+        ' Disabling original buttons of frmLogIn,
+        ' Activating EXIT button only to terminate program
+        frmLogin.btnLogin.Hide()
         frmLogin.btnExit.Hide()
-        frmLogin.btnLogin.Text = "EXIT"
+        frmLogin.btnReset.Hide()
+        frmLogin.btnExitApp.Show()
+    End Sub
+
+    Private Sub txtPin_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtPin.TextChanged
+        btnLogIn.Enabled = True
     End Sub
 End Class
