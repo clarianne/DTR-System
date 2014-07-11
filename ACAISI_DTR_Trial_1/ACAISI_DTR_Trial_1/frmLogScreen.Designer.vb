@@ -25,6 +25,9 @@ Partial Class frmLogScreen
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frmLogScreen))
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.lblDate = New System.Windows.Forms.Label()
         Me.lblDay = New System.Windows.Forms.Label()
         Me.lblTime = New System.Windows.Forms.Label()
@@ -37,24 +40,22 @@ Partial Class frmLogScreen
         Me.lblPin = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.picLogo = New System.Windows.Forms.PictureBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.FileToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AdminLogInToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel1.SuspendLayout()
         Me.panTimeLog.SuspendLayout()
         CType(Me.picLogo, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Panel1
         '
         Me.Panel1.BackColor = System.Drawing.Color.Maroon
-        Me.Panel1.Controls.Add(Me.Label3)
-        Me.Panel1.Controls.Add(Me.Label2)
+        Me.Panel1.Controls.Add(Me.Panel2)
         Me.Panel1.Controls.Add(Me.Label1)
         Me.Panel1.Controls.Add(Me.lblDate)
         Me.Panel1.Controls.Add(Me.lblDay)
@@ -64,13 +65,46 @@ Partial Class frmLogScreen
         Me.Panel1.Size = New System.Drawing.Size(235, 331)
         Me.Panel1.TabIndex = 14
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.Black
+        Me.Label3.Location = New System.Drawing.Point(52, 30)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(121, 19)
+        Me.Label3.TabIndex = 13
+        Me.Label3.Text = "Record System"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.Black
+        Me.Label2.Location = New System.Drawing.Point(69, 11)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(89, 19)
+        Me.Label2.TabIndex = 12
+        Me.Label2.Text = "Daily Time"
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Label1.Location = New System.Drawing.Point(16, 102)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(100, 25)
+        Me.Label1.TabIndex = 11
+        Me.Label1.Text = "Today is:"
+        '
         'lblDate
         '
         Me.lblDate.AutoSize = True
         Me.lblDate.BackColor = System.Drawing.Color.Transparent
         Me.lblDate.Font = New System.Drawing.Font("Century Gothic", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblDate.ForeColor = System.Drawing.Color.White
-        Me.lblDate.Location = New System.Drawing.Point(15, 184)
+        Me.lblDate.Location = New System.Drawing.Point(16, 184)
         Me.lblDate.Name = "lblDate"
         Me.lblDate.Size = New System.Drawing.Size(201, 36)
         Me.lblDate.TabIndex = 9
@@ -141,7 +175,7 @@ Partial Class frmLogScreen
         Me.panTimeLog.Controls.Add(Me.txtPin)
         Me.panTimeLog.Controls.Add(Me.lblPin)
         Me.panTimeLog.Font = New System.Drawing.Font("Century Gothic", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.panTimeLog.Location = New System.Drawing.Point(69, 168)
+        Me.panTimeLog.Location = New System.Drawing.Point(69, 172)
         Me.panTimeLog.Name = "panTimeLog"
         Me.panTimeLog.Size = New System.Drawing.Size(250, 117)
         Me.panTimeLog.TabIndex = 16
@@ -153,19 +187,19 @@ Partial Class frmLogScreen
         Me.btnLogIn.Name = "btnLogIn"
         Me.btnLogIn.Size = New System.Drawing.Size(115, 35)
         Me.btnLogIn.TabIndex = 2
-        Me.btnLogIn.TabStop = False
         Me.btnLogIn.Text = "LOG-IN"
         Me.btnLogIn.UseVisualStyleBackColor = True
         '
         'txtPin
         '
-        Me.txtPin.Font = New System.Drawing.Font("Webdings", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(2, Byte))
-        Me.txtPin.ForeColor = System.Drawing.Color.WhiteSmoke
-        Me.txtPin.Location = New System.Drawing.Point(103, 22)
+        Me.txtPin.Font = New System.Drawing.Font("Arial Black", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPin.ForeColor = System.Drawing.Color.Black
+        Me.txtPin.Location = New System.Drawing.Point(103, 20)
         Me.txtPin.MaxLength = 4
         Me.txtPin.Name = "txtPin"
-        Me.txtPin.Size = New System.Drawing.Size(117, 22)
+        Me.txtPin.Size = New System.Drawing.Size(117, 29)
         Me.txtPin.TabIndex = 1
+        Me.txtPin.UseSystemPasswordChar = True
         '
         'lblPin
         '
@@ -190,45 +224,13 @@ Partial Class frmLogScreen
         Me.picLogo.TabIndex = 11
         Me.picLogo.TabStop = False
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label1.Location = New System.Drawing.Point(16, 102)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(100, 25)
-        Me.Label1.TabIndex = 11
-        Me.Label1.Text = "Today is:"
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label2.Location = New System.Drawing.Point(70, 10)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(89, 19)
-        Me.Label2.TabIndex = 12
-        Me.Label2.Text = "Daily Time"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label3.Location = New System.Drawing.Point(53, 29)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(121, 19)
-        Me.Label3.TabIndex = 13
-        Me.Label3.Text = "Record System"
-        '
         'MenuStrip1
         '
+        Me.MenuStrip1.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(638, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(638, 25)
         Me.MenuStrip1.TabIndex = 17
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -250,6 +252,16 @@ Partial Class frmLogScreen
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
         Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(157, 22)
         Me.ExitToolStripMenuItem.Text = "E&xit..."
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.LightGray
+        Me.Panel2.Controls.Add(Me.Label3)
+        Me.Panel2.Controls.Add(Me.Label2)
+        Me.Panel2.Location = New System.Drawing.Point(0, 17)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(236, 65)
+        Me.Panel2.TabIndex = 14
         '
         'frmLogScreen
         '
@@ -277,6 +289,8 @@ Partial Class frmLogScreen
         CType(Me.picLogo, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -301,4 +315,5 @@ Partial Class frmLogScreen
     Friend WithEvents FileToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents AdminLogInToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ExitToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents Panel2 As System.Windows.Forms.Panel
 End Class

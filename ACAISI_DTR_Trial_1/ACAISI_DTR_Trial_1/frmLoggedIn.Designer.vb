@@ -29,7 +29,7 @@ Partial Class frmLoggedIn
         Me.btnAmOut = New System.Windows.Forms.Button()
         Me.btnAmIn = New System.Windows.Forms.Button()
         Me.btnTimeOut = New System.Windows.Forms.Button()
-        Me.btnLogIn = New System.Windows.Forms.Button()
+        Me.btnTimeIn = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnPmOut
@@ -109,16 +109,16 @@ Partial Class frmLoggedIn
         Me.btnTimeOut.Text = "TIME OUT"
         Me.btnTimeOut.UseVisualStyleBackColor = True
         '
-        'btnLogIn
+        'btnTimeIn
         '
-        Me.btnLogIn.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnLogIn.Location = New System.Drawing.Point(85, 16)
-        Me.btnLogIn.Name = "btnLogIn"
-        Me.btnLogIn.Size = New System.Drawing.Size(115, 35)
-        Me.btnLogIn.TabIndex = 10
-        Me.btnLogIn.TabStop = False
-        Me.btnLogIn.Text = "TIME IN"
-        Me.btnLogIn.UseVisualStyleBackColor = True
+        Me.btnTimeIn.Font = New System.Drawing.Font("Century Gothic", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnTimeIn.Location = New System.Drawing.Point(85, 16)
+        Me.btnTimeIn.Name = "btnTimeIn"
+        Me.btnTimeIn.Size = New System.Drawing.Size(115, 35)
+        Me.btnTimeIn.TabIndex = 10
+        Me.btnTimeIn.TabStop = False
+        Me.btnTimeIn.Text = "TIME IN"
+        Me.btnTimeIn.UseVisualStyleBackColor = True
         '
         'frmLoggedIn
         '
@@ -126,6 +126,7 @@ Partial Class frmLoggedIn
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.Info
         Me.ClientSize = New System.Drawing.Size(284, 262)
+        Me.ControlBox = False
         Me.Controls.Add(Me.btnPmOut)
         Me.Controls.Add(Me.btnPmIn)
         Me.Controls.Add(Me.btnLunOut)
@@ -133,8 +134,9 @@ Partial Class frmLoggedIn
         Me.Controls.Add(Me.btnAmOut)
         Me.Controls.Add(Me.btnAmIn)
         Me.Controls.Add(Me.btnTimeOut)
-        Me.Controls.Add(Me.btnLogIn)
+        Me.Controls.Add(Me.btnTimeIn)
         Me.Name = "frmLoggedIn"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Employee Log-In"
         Me.ResumeLayout(False)
 
@@ -146,5 +148,5 @@ Partial Class frmLoggedIn
     Friend WithEvents btnAmOut As System.Windows.Forms.Button
     Friend WithEvents btnAmIn As System.Windows.Forms.Button
     Friend WithEvents btnTimeOut As System.Windows.Forms.Button
-    Friend WithEvents btnLogIn As System.Windows.Forms.Button
+    Friend WithEvents btnTimeIn As System.Windows.Forms.Button
 End Class
